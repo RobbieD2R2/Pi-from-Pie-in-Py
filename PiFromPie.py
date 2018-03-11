@@ -13,7 +13,7 @@ def main():
     win = GraphWin("Pi From Pie", 800,600)   #title, width, height
     win.setBackground("white")
 
-    mylabel = Text(Point(400, 40), "Pi from Pie Simulation")    # anchorpoint (centered)
+    mylabel = Text(Point(400, 40), "Pi from Pie in Py Simulation")   #anchorpoint
     mylabel.setSize(24)
     mylabel.setStyle("bold italic")
     mylabel.setTextColor("green")
@@ -25,14 +25,16 @@ def main():
     mycircle = Circle(Point(400,300), 200)  # centerpoint, radius
     mycircle.draw(win)
 
+    # Let's throw 3,000 darts
+    
     for i in range(3000):
         x = random.choice(range(200,600))
         y = random.choice(range(100,500))
         mydart = Point(x,y)
 
-        # If x^2 + y^2 < r^2 Then its in the circle
+        # IF x^2 + y^2 < r^2 THEN it's in the circle
         # Adjust for the center pixel location: -1 0 +1 grid
-        # meaning, location 400,300 is the center of the grid: location 0,0
+        # (meaning, location 400,300 is the center of the grid: location 0,0)
 
         if (400-x)**2 + (300-y)**2 < radius**2:
             mydart.setFill("red")
