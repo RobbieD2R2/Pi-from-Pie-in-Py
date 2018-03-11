@@ -1,5 +1,5 @@
 # Pi-from-Pie-in-Py
-# A visual demonstration of Pi (3.14) by simulating darts randomly thrown at a dartboard
+// A visual demonstration of Pi (3.14) by simulating darts randomly thrown at a dartboard
 
 
 Pi Day is on March 14th. There are lots of mentions about it on social media, but not enough demonstrations or explanations of what Pi can actually be made to represent.  It's a learning opportnity!
