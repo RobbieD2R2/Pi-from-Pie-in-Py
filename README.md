@@ -2,7 +2,7 @@
 // A visual demonstration of Pi (3.14) by simulating darts randomly thrown at a dartboard
 
 
-Pi Day is on March 14th. There are lots of mentions about it on social media, but not enough demonstrations or explanations of what Pi can actually be made to represent.  It's a learning opportnity!
+Pi Day is on March 14th. There are lots of mentions about it on social media, but not enough demonstrations or explanations of what Pi can actually be made to represent.  It's a learning opportunity!
 
 This repo is really just a simple Python program that makes use of a graphics wrapper - simple enough, by design, so that I can use it in my Intro course.
 
